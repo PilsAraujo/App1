@@ -30,7 +30,7 @@
 
 
     <EditText
-        android:id="@+id/edit_IdConsulta"
+        android:id="@+id/editIdConsulta"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -61,7 +61,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edit_NomePaciente"
+        android:id="@+id/editNomePaciente"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -79,7 +79,7 @@
         android:textSize="18dp"
         android:textStyle="bold" />
     <EditText
-        android:id="@+id/edit_DataConsulta"
+        android:id="@+id/editDataConsulta"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -98,7 +98,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edit_MotivoConsulta"
+        android:id="@+id/editMotivoConsulta"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -117,7 +117,7 @@
 
 
     <EditText
-        android:id="@+id/edit_LocalConsulta"
+        android:id="@+id/editLocalConsulta"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"

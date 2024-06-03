@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/consultaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consulta"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/updateButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="45dp"
+                android:src="@drawable/baseline_edit_24"
+                />
+
+            <ImageView
+                android:id="@+id/deleteButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/baseline_delete_24"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/editIdConsultaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editIdConsulta"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/editNomePacienteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editNomePaciente"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/editdataconsultaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editdatadaconsulta"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/editmotivoconsultaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editmotivoconsulta"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/editlocalconsultaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editlocalconsulta"
+            android:layout_marginTop="4dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

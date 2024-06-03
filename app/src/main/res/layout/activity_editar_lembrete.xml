@@ -30,23 +30,13 @@
 
 
     <EditText
-        android:id="@+id/edit_IdAgendamento"
+        android:id="@+id/updateIdAgendamento"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="2dp"
-        android:gravity="" />
-
-    <Button
-        android:id="@+id/bottom_Consultar"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#8EBDD3"
-        android:text="Consultar"
-        android:textSize="16dp" />
+        android:gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +49,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edit_NomePaciente"
+        android:id="@+id/updateNomePaciente"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -78,7 +68,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edit_NomeMedicamento"
+        android:id="@+id/updateNomeMedicamento"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -97,7 +87,7 @@
 
 
     <EditText
-        android:id="@+id/edit_LocalConsulta"
+        android:id="@+id/updateLocalConsulta"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -113,14 +103,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="12dp"
-        android:text="Data"
+        android:text="Horário"
         android:textColor="#000"
         android:textSize="18dp"
         android:textStyle="bold" />
 
 
     <EditText
-        android:id="@+id/edit_Data"
+        android:id="@+id/updateData"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_gravity="center"

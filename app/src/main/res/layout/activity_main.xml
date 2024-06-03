@@ -10,63 +10,46 @@
     tools:context=".MainActivity">
 
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="12dp"
-            android:text="Consultas"
-            android:textColor="#000"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Consultas"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
 
 
     <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_margin="4dp"
-            android:background="#fff" />
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="4dp"
+        android:background="#fff" />
 
     <Button
         android:id="@+id/bottom_Adicionar_Consulta"
         android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="Adicionar Consulta"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
         android:layout_marginTop="30dp"
-        android:layout_height="50dp" />
-
-    <Button
-        android:id="@+id/bottom_Editar_Consutla"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
-        android:text="Editar Consulta"
-        android:textSize="16dp"
         android:backgroundTint="#8EBDD3"
-        android:layout_marginTop="12dp"
-        android:layout_height="50dp" />
+        android:text="Adicionar Consulta"
+        android:textSize="16dp" />
+
+
     <Button
         android:id="@+id/bottom_Mostrar_Consulta"
         android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="Mostrar Consultas"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
-        android:layout_marginTop="12dp"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/bottom_Excluir_Consulta"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
-        android:text="Excluir Consultas"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="40dp"
-        android:layout_height="50dp" />
+        android:backgroundTint="#8EBDD3"
+        android:text="Mostrar Consultas"
+        android:textSize="16dp" />
+
+
 
     <View
         android:layout_width="match_parent"
@@ -80,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="12dp"
-        android:text="Lembretes"
+        android:text="Medicamentos"
         android:textColor="#000"
         android:textSize="18dp"
         android:textStyle="bold" />
@@ -95,34 +78,19 @@
         android:text="Adicionar Lembrete"
         android:textSize="16dp" />
 
-    <Button
-        android:id="@+id/bottom_Editar_Lembrete"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
-        android:text="Editar Lembrete"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
-        android:layout_marginTop="12dp"
-        android:layout_height="50dp" />
+
+
     <Button
         android:id="@+id/bottom_Mostar_Lembretes"
         android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#8EBDD3"
         android:text="Mostrar Lembretes"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
-        android:layout_marginTop="12dp"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/bottom_Excluir_Lembrete"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
-        android:text="Excluir Lembrete"
-        android:textSize="16dp"
-        android:backgroundTint="#8EBDD3"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="50dp"
-        android:layout_height="50dp" />
+        android:textSize="16dp" />
+
+
 
 
 </LinearLayout>

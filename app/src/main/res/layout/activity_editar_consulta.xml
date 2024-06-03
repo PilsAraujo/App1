@@ -30,25 +30,16 @@
         android:textStyle="bold" />
 
 
-    <EditText
-        android:id="@+id/edit_IdConsulta"
+
+        <EditText
+        android:id="@+id/updateIdConsulta"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="2dp"
-        android:gravity="" />
+        android:gravity="center_horizontal" />
 
-    <Button
-        android:id="@+id/Consultar"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="#8EBDD3"
-        android:text="Consultar"
-        android:textSize="16dp" />
 
 
     <TextView
@@ -61,26 +52,27 @@
         android:textSize="18dp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/edit_NomePaciente"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:gravity="center_horizontal"
-        />
+        <EditText
+            android:id="@+id/updateNomePaciente"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="12dp"
-        android:text="Data Consulta"
-        android:textColor="#000"
-        android:textSize="18dp"
-        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:text="Data Consulta"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
     <EditText
-        android:id="@+id/edit_DataConsulta"
+        android:id="@+id/updatetDataConsulta"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -99,13 +91,14 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edit_MotivoConsulta"
+        android:id="@+id/updateMotivoConsulta"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
-        android:gravity="center_horizontal"        />
+        android:gravity="center_horizontal"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,7 +111,7 @@
 
 
     <EditText
-        android:id="@+id/edit_LocalConsulta"
+        android:id="@+id/updateLocalConsulta"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
